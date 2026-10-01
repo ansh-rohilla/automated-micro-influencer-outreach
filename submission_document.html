@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Report - Automated Micro-Influencer Outreach System</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
+            --bg-light: #f9fafb;
+            --border: #e5e7eb;
+            --success-bg: #d1fae5;
+            --success-text: #065f46;
+            --danger-bg: #fee2e2;
+            --danger-text: #991b1b;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 24px;
+            background-color: #ffffff;
+        }
+        h1, h2, h3, h4 {
+            color: #111827;
+            font-weight: 700;
+        }
+        h1 {
+            font-size: 2.2rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 12px;
+            margin-bottom: 8px;
+        }
+        .header-meta {
+            background-color: var(--bg-light);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            font-size: 0.95rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+        .badge-passed {
+            background-color: var(--success-bg);
+            color: var(--success-text);
+        }
+        .badge-failed {
+            background-color: var(--danger-bg);
+            color: var(--danger-text);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.9rem;
+        }
+        th, td {
+            border: 1px solid var(--border);
+            padding: 10px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f3f4f6;
+            font-weight: 600;
+        }
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+        .card {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            margin: 18px 0;
+            background-color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .pitch-box {
+            background-color: #f8fafc;
+            border-left: 4px solid var(--primary);
+            padding: 14px 18px;
+            margin: 12px 0;
+            font-size: 0.95rem;
+        }
+        .dm-box {
+            background-color: #fdf4ff;
+            border-left: 4px solid #a855f7;
+            padding: 12px 18px;
+            margin: 12px 0;
+            font-size: 0.95rem;
+        }
+        code {
+            background-color: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: ui-monospace, Menlo, Monaco, Consolas, monospace;
+            font-size: 0.88em;
+        }
+        pre {
+            background-color: #1e293b;
+            color: #f8fafc;
+            padding: 16px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.88rem;
+        }
+        @media print {
+            body { max-width: 100%; margin: 20px; font-size: 11pt; }
+            .card, table { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Automated Micro-Influencer Outreach System</h1>
+    <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 0;">Comprehensive Submission Report & Technical Documentation</p>
+
+    <div class="header-meta">
+        <div><strong>Candidate Name:</strong> Ansh Rohilla</div>
+        <div><strong>Target Niche:</strong> Technology & AI</div>
+        <div><strong>GitHub Repository:</strong> <a href="https://github.com/ansh-rohilla/automated-micro-influencer-outreach" target="_blank">automated-micro-influencer-outreach</a></div>
+        <div><strong>Test Run Yield:</strong> 58 Verified Creators (30 Shortlisted Micro)</div>
+        <div><strong>Average Email Length:</strong> 74.6 words (Strict: 60-90w)</div>
+        <div><strong>Average DM Length:</strong> 28.5 words (Strict: 15-30w)</div>
+    </div>
+
+    <h2>1. Executive Summary & Architecture</h2>
+    <p>
+        This project implements an end-to-end automated system for micro-influencer discovery, qualification, enrichment, AI-driven message personalization, and outreach delivery tracking. The system extracts 58 genuine Technology & AI creator profiles, strictly applies micro-influencer criteria (5,000–100,000 followers and &ge; 2.0% engagement), enriches records under anti-fabrication standards, generates tailored pitches across 6 collaboration angles, and dispatches messages with duplicate prevention.
+    </p>
+
+    <pre>
+Discovery (58 Real Profiles) 
+    ↳ Filtering & Classification (30 Passed, 28 Failed with Audit Reason)
+        ↳ Profile Enrichment (Contacts, Benchmarked Demographics, Content Tone)
+            ↳ AI Personalization (60-90w Email Pitch | 15-30w Instagram DM)
+                ↳ Sending Layer (Safe Simulation / SMTP + Idempotency)
+                    ↳ Live Outreach Tracker (Persistent CSV / JSON Audit Log)
+    </pre>
+
+    <h2>2. Influencer Dataset (Section 7.B Recommended Format)</h2>
+    <p>Sample rows from the 58-creator dataset in <code>data/influencer_dataset.csv</code>:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Platform</th>
+                <th>Followers</th>
+                <th>Engagement</th>
+                <th>Niche</th>
+                <th>Email</th>
+                <th>Profile URL</th>
+                <th>Content Theme</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Kimberlyn Padilla</strong></td>
+                <td>TikTok</td>
+                <td>60,200</td>
+                <td>3.21%</td>
+                <td>Technology & AI</td>
+                <td><em>Not Found</em></td>
+                <td><a href="https://collabstr.com/kimberlynpadilla" target="_blank">collabstr.com/kimberlynpadilla</a></td>
+                <td>AI & LLMs, Mobile Apps</td>
+                <td><span class="badge badge-passed">PASSED</span></td>
+            </tr>
+            <tr>
+                <td><strong>Diego Montes B</strong></td>
+                <td>TikTok</td>
+                <td>56,800</td>
+                <td>3.18%</td>
+                <td>Technology & AI</td>
+                <td>montesbar.diego@gmail.com</td>
+                <td><a href="https://collabstr.com/diegoinnovacion" target="_blank">collabstr.com/diegoinnovacion</a></td>
+                <td>AI & LLMs, Startups</td>
+                <td><span class="badge badge-passed">PASSED</span></td>
+            </tr>
+            <tr>
+                <td><strong>Abdelhamid Oughanem</strong></td>
+                <td>Instagram</td>
+                <td>13,600</td>
+                <td>3.82%</td>
+                <td>Technology & AI</td>
+                <td><em>Not Found</em></td>
+                <td><a href="https://collabstr.com/abdelhamidhania" target="_blank">collabstr.com/abdelhamidhania</a></td>
+                <td>AI & LLMs, SaaS & Cloud</td>
+                <td><span class="badge badge-passed">PASSED</span></td>
+            </tr>
+            <tr>
+                <td><strong>Christopher Dominguez</strong></td>
+                <td>TikTok</td>
+                <td>59,800</td>
+                <td>3.02%</td>
+                <td>Technology & AI</td>
+                <td><em>Not Found</em></td>
+                <td><a href="https://collabstr.com/aztekfx" target="_blank">collabstr.com/aztekfx</a></td>
+                <td>Tech Hardware, Gadgets</td>
+                <td><span class="badge badge-passed">PASSED</span></td>
+            </tr>
+            <tr>
+                <td><strong>Wealth Circal</strong></td>
+                <td>Instagram</td>
+                <td>25,800</td>
+                <td>3.32%</td>
+                <td>Technology & AI</td>
+                <td>connect@wealthcircle.in</td>
+                <td><a href="https://collabstr.com/wealthcircal" target="_blank">collabstr.com/wealthcircal</a></td>
+                <td>AI & LLMs, Fintech</td>
+                <td><span class="badge badge-passed">PASSED</span></td>
+            </tr>
+            <tr>
+                <td><strong>Shubham Saini</strong></td>
+                <td>Instagram</td>
+                <td>50,700</td>
+                <td>2.76%</td>
+                <td>Technology & AI</td>
+                <td>shubham@shubook.in</td>
+                <td><a href="https://collabstr.com/shubook" target="_blank">collabstr.com/shubook</a></td>
+                <td>Tech Education, Startups</td>
+                <td><span class="badge badge-passed">PASSED</span></td>
+            </tr>
+            <tr>
+                <td><strong>Eric Garcia</strong></td>
+                <td>Instagram</td>
+                <td>500</td>
+                <td>4.42%</td>
+                <td>Technology & AI</td>
+                <td><em>Not Enriched</em></td>
+                <td><a href="https://collabstr.com/ericgar" target="_blank">collabstr.com/ericgar</a></td>
+                <td>AI & LLMs, SaaS</td>
+                <td><span class="badge badge-failed">FAILED (Below 5k)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Toni Cuenca Garcia</strong></td>
+                <td>TikTok</td>
+                <td>480,400</td>
+                <td>1.83%</td>
+                <td>Technology & AI</td>
+                <td><em>Not Enriched</em></td>
+                <td><a href="https://collabstr.com/linkfydev" target="_blank">collabstr.com/linkfydev</a></td>
+                <td>Coding & Dev</td>
+                <td><span class="badge badge-failed">FAILED (Macro >100k)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Mayura Panemangalore</strong></td>
+                <td>Instagram</td>
+                <td>166,600</td>
+                <td>1.31%</td>
+                <td>Technology & AI</td>
+                <td><em>Not Enriched</em></td>
+                <td><a href="https://collabstr.com/thenadcoderacademy" target="_blank">collabstr.com/thenadcoderacademy</a></td>
+                <td>AI & LLMs, Coding</td>
+                <td><span class="badge badge-failed">FAILED (Macro >100k)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Joseph Badiger</strong></td>
+                <td>Instagram</td>
+                <td>50,600</td>
+                <td>1.95%</td>
+                <td>Technology & AI</td>
+                <td><em>Not Enriched</em></td>
+                <td><a href="https://collabstr.com/josephbadiger" target="_blank">collabstr.com/josephbadiger</a></td>
+                <td>Tech Lifestyle</td>
+                <td><span class="badge badge-failed">FAILED (ER &lt; 2.0%)</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. Sample Personalized Outreach Messages (Section 7.C)</h2>
+
+    <div class="card">
+        <h3>Creator: Diego Montes B (@diegoinnovacion) — TikTok (56.8k followers)</h3>
+        <p><strong>Collaboration Angle:</strong> Sponsorship | <strong>Value Prop:</strong> Competitive flat creator fees with creative freedom.</p>
+        
+        <div class="pitch-box">
+            <strong>Email Collaboration Pitch (74 words | Valid: 60-90w)</strong><br>
+            <em>Subject: Collaboration inquiry with Diego – Sponsorship for Practical Generative AI tools and workflow automation</em><br><br>
+            Hi Diego, I loved your recent breakdown on practical generative ai tools and workflow automation. Your professional, business-focused, strategic insights and case studies and highly engaged 18-34 tech audience in Lima align seamlessly with our team's mission. We are launching an upcoming sponsorship and would love to partner with you. We offer competitive flat creator fees with creative freedom on campaign integration. Would you be open to reviewing a brief partnership brief this week?
+        </div>
+
+        <div class="dm-box">
+            <strong>Instagram Direct Message (28 words | Valid: 15-30w)</strong><br>
+            "Hi Diego, loved your recent practical generative ai tools and workflow automation content! Your tech audience looks like a perfect fit for our upcoming sponsorship. Open to collaborating?"
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>Creator: Kimberlyn Padilla (@kimberlynpadilla) — TikTok (60.2k followers)</h3>
+        <p><strong>Collaboration Angle:</strong> UGC Content Creation | <strong>Value Prop:</strong> Paid commercial licensing deal for ad campaigns.</p>
+        
+        <div class="pitch-box">
+            <strong>Email Collaboration Pitch (77 words | Valid: 60-90w)</strong><br>
+            <em>Subject: Collaboration inquiry with Kimberlyn – UGC content creation for Practical Generative AI tools and workflow automation</em><br><br>
+            Hi Kimberlyn, I loved your recent breakdown on practical generative ai tools and workflow automation. Your engaging, practical product demos and relatable consumer reviews and highly engaged 18-34 tech audience in Cucuta align seamlessly with our team's mission. We are launching an upcoming ugc content creation and would love to partner with you. We offer paid commercial licensing deal for our upcoming high-growth ad campaigns. Would you be open to reviewing a brief partnership brief this week?
+        </div>
+
+        <div class="dm-box">
+            <strong>Instagram Direct Message (30 words | Valid: 15-30w)</strong><br>
+            "Hi Kimberlyn, loved your recent practical generative ai tools and workflow automation content! Your tech audience looks like a perfect fit for our upcoming ugc content creation. Open to collaborating?"
+        </div>
+    </div>
+
+    <h2>4. Live Outreach Tracker & Duplicate Prevention (Section 7.D)</h2>
+    <p>Audit entries from <code>data/processed/outreach_tracker.csv</code>:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Influencer</th>
+                <th>Email</th>
+                <th>Message Generated (Preview)</th>
+                <th>Sent Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Diego Montes B</strong></td>
+                <td><code>montesbar.diego@gmail.com</code></td>
+                <td>Hi Diego, I loved your recent breakdown on practical generative ai...</td>
+                <td>2026-10-01T18:48:17</td>
+                <td><span class="badge badge-passed">SIMULATED_SENT</span></td>
+            </tr>
+            <tr>
+                <td><strong>Wealth Circal</strong></td>
+                <td><code>connect@wealthcircle.in</code></td>
+                <td>Hi Wealth, I loved your recent breakdown on practical generative ai...</td>
+                <td>2026-10-01T18:48:17</td>
+                <td><span class="badge badge-passed">SIMULATED_SENT</span></td>
+            </tr>
+            <tr>
+                <td><strong>Shubham Saini</strong></td>
+                <td><code>shubham@shubook.in</code></td>
+                <td>Hi Shubham, I loved your recent breakdown on practical generative ai...</td>
+                <td>2026-10-01T18:48:17</td>
+                <td><span class="badge badge-passed">SIMULATED_SENT</span></td>
+            </tr>
+            <tr>
+                <td><strong>Kimberlyn Padilla</strong></td>
+                <td><code>Not Found</code></td>
+                <td>Hi Kimberlyn, I loved your recent breakdown on practical generative...</td>
+                <td>2026-10-01T18:48:17</td>
+                <td><span class="badge" style="background:#e0f2fe; color:#0369a1;">SKIPPED_NO_EMAIL</span></td>
+            </tr>
+            <tr>
+                <td><strong>Abdelhamid Oughanem</strong></td>
+                <td><code>Not Found</code></td>
+                <td>Hi Abdelhamid, I loved your recent breakdown on practical generative...</td>
+                <td>2026-10-01T18:48:17</td>
+                <td><span class="badge" style="background:#e0f2fe; color:#0369a1;">SKIPPED_NO_EMAIL</span></td>
+            </tr>
+            <tr>
+                <td><strong>Diego Montes B (Re-run)</strong></td>
+                <td><code>montesbar.diego@gmail.com</code></td>
+                <td>Hi Diego, I loved your recent breakdown on practical generative ai...</td>
+                <td>2026-10-01T18:49:26</td>
+                <td><span class="badge" style="background:#fef3c7; color:#92400e;">SKIPPED_DUPLICATE</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>5. Quick Setup & Execution</h2>
+    <pre>
+# Clone repository
+git clone https://github.com/ansh-rohilla/automated-micro-influencer-outreach.git
+cd automated-micro-influencer-outreach
+
+# Setup virtual environment
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# Run full pipeline end-to-end
+python main.py
+
+# Launch interactive Streamlit web dashboard
+streamlit run app.py
+
+# Run unit tests
+python -m unittest discover tests
+    </pre>
+
+</body>
+</html>
