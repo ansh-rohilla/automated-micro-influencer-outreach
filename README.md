@@ -30,7 +30,7 @@ flowchart LR
 | :--- | :---: | :--- |
 | **Influencer Discovery** | **COMPLETED** | Automated discovery of **58 real, verified Technology & AI creators** across Instagram, YouTube, and TikTok. |
 | **Filtering & Classification** | **COMPLETED** | Automated criteria filtering (5k–100k followers, >2.0% ER, brand fit) with explicit pass/fail rationale. |
-| **Profile Enrichment** | *Upcoming* | Extracting contact emails, content themes, bios, locations, and handles (strictly marking "Not Found" if unavailable). |
+| **Profile Enrichment** | **COMPLETED** | Enriched 30 shortlisted creators with mandatory emails (or "Not Found"), content context, and demographics. |
 | **AI Personalization** | *Upcoming* | AI/LLM generation of email pitches (60–90 words) & Instagram DMs (15–30 words). |
 | **Sending Layer** | *Upcoming* | Email sending (SMTP + Safe Simulation Mode) with duplicate prevention and manual Instagram DM workflow. |
 | **Outreach Tracker & UI** | *Upcoming* | Real-time campaign tracking, audit logs, and interactive Streamlit review dashboard. |
@@ -51,14 +51,7 @@ flowchart LR
   - **Micro-Influencers (5,000 – 100,000 followers)**: `35 creators` *(Target cohort)*
   - **Macro-Influencers (> 100,000 followers)**: `17 creators`
   - **Nano-Influencers (< 5,000 followers)**: `6 creators`
-- **By Primary Platform**:
-  - **Instagram**: `26`
-  - **TikTok**: `22`
-  - **YouTube**: `9`
-  - **X (Twitter)**: `1`
-
-### 3. Discovered Data Schema
-Saved in `data/raw/discovered_influencers.csv` with fields: `ID`, `Name`, `Username`, `Platform`, `Followers`, `Follower_Tier`, `Engagement_Rate`, `Niche`, `Content_Themes`, `Location`, `Profile_URL`, `Headline`, `Bio`, and `Discovery_Source`.
+- **By Primary Platform**: Instagram (26), TikTok (22), YouTube (9), X (1).
 
 ---
 
@@ -71,7 +64,7 @@ The filtering engine automatically evaluates discovered candidates against stric
 | :--- | :--- | :--- |
 | **Follower Range** | **5,000 – 100,000** | Strict micro-influencer threshold bounds |
 | **Minimum Engagement Rate** | **$\ge$ 2.0%** | Ensures high audience responsiveness and ROI |
-| **Allowed Platforms** | Instagram, TikTok, YouTube, X | Validates supported outreach channels |
+| **Allowed Platforms** | Instagram, TikTok, YouTube, X, Twitch | Validates supported outreach channels |
 | **Niche Relevance** | AI, Tech, SaaS, Dev Tools, Cloud, Cybersecurity | Matches target domain alignment |
 | **Brand Safety** | Disqualifies spam, casino, adult, or toxic keywords | Enforces brand reputation protection |
 
@@ -84,16 +77,35 @@ Each candidate is evaluated using a composite scoring heuristic:
 ### 3. Evaluation Audit Summary
 - **Total Profiles Evaluated**: **58**
 - **Shortlisted (PASSED)**: **30 Micro-Influencers**
-- **Excluded (FAILED)**: **28 Profiles**
-  - **Audit Rationale Examples**:
-    - *Follower count (500) is below the micro-influencer threshold (5,000)*
-    - *Follower count (480,400) exceeds the micro-influencer ceiling (100,000) - classified as Macro*
-    - *Engagement rate (1.95%) is below minimum threshold (2.0%)*
+- **Excluded (FAILED)**: **28 Profiles** (e.g., below 5k, above 100k, or low engagement) with auditable reasons.
 
-### 4. Output Datasets
-- `data/processed/classified_influencers.csv`: Full audit dataset of all 58 creators with status, score, and explicit rationale.
-- `data/processed/shortlisted_influencers.csv`: Clean cohort of the 30 shortlisted micro-influencers advancing to profile enrichment.
-- `data/processed/classified_influencers.json`: Structured JSON audit log.
+---
+
+## 📊 Profile Enrichment Engine
+
+The enrichment engine takes the 30 shortlisted micro-influencers and enriches their records with all mandatory and optional attributes required by Section 3 of the specification.
+
+### 1. Field Specification & Compliance
+| Field | Status | Enrichment Source / Methodology |
+| :--- | :---: | :--- |
+| **Influencer Name** | **Mandatory** | Real verified creator name |
+| **Platform** | **Mandatory** | Primary platform (TikTok, Instagram, YouTube) |
+| **Profile URL** | **Mandatory** | Direct creator profile link |
+| **Follower Count** | **Mandatory** | Quantified follower volume (e.g. 56,800, 60,200) |
+| **Engagement Rate** | **Mandatory** | Platform-benchmarked engagement rate (e.g. 3.18%) |
+| **Category / Niche** | **Mandatory** | Technology & AI sub-domain |
+| **Content Themes** | **Mandatory** | Extracted topic tags (e.g. `AI & LLMs`, `SaaS & Cloud`) |
+| **Contact Email** | **Mandatory** | Verified public business email or strictly marked `"Not Found"` |
+| **Secondary Handles** | Optional | Instagram (`@handle`), TikTok, YouTube channels |
+| **Website** | Optional | Verified Linktree / personal portfolio link |
+| **Audience Age** | Optional | Tech audience demographic distribution (`18-34 years, 76%`) |
+| **Audience Gender** | Optional | Tech industry benchmark (`62% Male / 38% Female`) |
+| **Audience Geography**| Optional | Real creator geographic location (e.g. `Lima, PE`, `Ottawa, CA`) |
+| **Content Tone/Style**| Enrichment | Pedagogical tone classification for AI personalization |
+| **Recent Topics** | Enrichment | Recent post and video topics extracted from bio & headline |
+
+### 2. Anti-Fabrication & Ethical Data Policy
+In strict compliance with assignment guidelines, no email addresses are guessed or synthetic. Creators with publicly verified business emails on Linktree/domains have their direct email attached (e.g. `montesbar.diego@gmail.com`, `shubham@shubook.in`, `connect@wealthcircle.in`). Where no public email exists, the field is explicitly marked **`"Not Found"`**. This provides the necessary data variability for testing the Sending Layer's email validator.
 
 ---
 
@@ -121,7 +133,8 @@ automated-micro-influencer-outreach/
 │   ├── __init__.py                # Package root
 │   ├── models/
 │   │   ├── __init__.py
-│   │   └── influencer.py          # Pydantic schemas (Raw, Discovered, Classified)
+│   │   ├── influencer.py          # Pydantic schemas (Raw, Discovered, Classified)
+│   │   └── enrichment.py          # EnrichedInfluencer Pydantic schema
 │   ├── discovery/
 │   │   ├── __init__.py
 │   │   ├── base.py                # Abstract BaseDiscoverySource class
@@ -132,12 +145,17 @@ automated-micro-influencer-outreach/
 │   │   ├── criteria.py            # FilterCriteria configuration
 │   │   ├── classifier.py          # InfluencerClassifier & brand-fit scoring
 │   │   └── pipeline.py            # FilteringPipeline orchestrator & exporter
+│   ├── enrichment/
+│   │   ├── __init__.py
+│   │   ├── enricher.py            # ProfileEnricher engine & anti-fabrication rules
+│   │   └── pipeline.py            # EnrichmentPipeline orchestrator & exporter
 │   └── utils/
 │       ├── __init__.py
 │       └── parsers.py             # Metric parsers, engagement heuristics, theme extractors
 ├── scripts/
 │   ├── run_discovery.py           # Discovery CLI runner
-│   └── run_filtering.py           # Filtering & Classification CLI runner
+│   ├── run_filtering.py           # Filtering & Classification CLI runner
+│   └── run_enrichment.py          # Profile Enrichment CLI runner
 └── data/
     ├── raw/
     │   ├── discovered_influencers.json   # 58 discovered creators (JSON)
@@ -145,7 +163,9 @@ automated-micro-influencer-outreach/
     └── processed/
         ├── classified_influencers.json   # Full classification audit (JSON)
         ├── classified_influencers.csv    # Full classification audit (CSV)
-        └── shortlisted_influencers.csv   # 30 shortlisted micro-influencers (CSV)
+        ├── shortlisted_influencers.csv   # 30 shortlisted micro-influencers (CSV)
+        ├── enriched_influencers.json     # 30 enriched micro-influencers (JSON)
+        └── enriched_influencers.csv      # 30 enriched micro-influencers (CSV)
 ```
 
 ---
@@ -165,23 +185,22 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Run Discovery Pipeline
-Discovers 58 verified Technology & AI influencers:
+### 3. Run Pipeline Stages
 ```bash
+# 1. Influencer Discovery (58 real Tech & AI profiles)
 python scripts/run_discovery.py
-```
 
-### 4. Run Filtering & Classification Pipeline
-Applies quantitative (5k–100k followers, >2% ER) and qualitative brand safety rules:
-```bash
+# 2. Filtering & Classification (Evaluates 5k-100k, >2% ER, brand fit)
 python scripts/run_filtering.py
+
+# 3. Profile Enrichment (Contact email, demographics, tone & context)
+python scripts/run_enrichment.py
 ```
 
 ---
 
 ## 🔄 Upcoming Modules
 
-- **Profile Enrichment**: Extracting contact emails (or strictly marking "Not Found" if unavailable), handles, and audience demographics.
 - **AI Personalization Engine**: LLM-driven generation of personalized 60–90 word email collaboration pitches and 15–30 word Instagram DMs.
 - **Sending Layer**: Dispatching via SMTP / Simulation mode with duplicate prevention.
 - **Outreach Tracker & UI**: Real-time campaign tracking dashboard built with Streamlit.

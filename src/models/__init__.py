@@ -9,6 +9,7 @@ from src.models.influencer import (
     ClassificationResult,
     ClassifiedInfluencer,
 )
+from src.models.enrichment import EnrichedInfluencer
 
 __all__ = [
     "PlatformMetric",
@@ -16,4 +17,5 @@ __all__ = [
     "DiscoveredInfluencer",
     "ClassificationResult",
     "ClassifiedInfluencer",
+    "EnrichedInfluencer",
 ]
