@@ -6,8 +6,6 @@
 
 An end-to-end automated system that discovers real micro-influencers, filters and classifies them based on predefined brand-fit criteria, enriches their profiles with contact context, generates AI/LLM-personalized collaboration outreach messages, and executes an idempotent sending and tracking workflow.
 
-Built for the **EDXSO AI Engineer Intern – Assignment 1**.
-
 ---
 
 ## 📑 Project Workflow Overview
