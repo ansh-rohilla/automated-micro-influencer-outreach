@@ -9,29 +9,29 @@ An end-to-end automated system that discovers real micro-influencers, filters an
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [System Architecture & Lifecycle](#-system-architecture--lifecycle)
-- [Key Features & Highlights](#-key-features--highlights)
-- [Technology Stack & Tools Used](#-technology-stack--tools-used)
-- [Pipeline Components](#-pipeline-components)
+- [System Architecture & Lifecycle](#system-architecture--lifecycle)
+- [Key Features & Highlights](#key-features--highlights)
+- [Technology Stack & Tools Used](#technology-stack--tools-used)
+- [Pipeline Components](#pipeline-components)
   - [1. Influencer Discovery](#1-influencer-discovery)
   - [2. Filtering & Classification Engine](#2-filtering--classification-engine)
   - [3. Profile Enrichment Engine](#3-profile-enrichment-engine)
   - [4. AI Message Personalization](#4-ai-message-personalization)
   - [5. Sending Layer & Duplicate Prevention](#5-sending-layer--duplicate-prevention)
   - [6. Outreach Tracker & Analytics](#6-outreach-tracker--analytics)
-- [Interactive Web Dashboard (Streamlit)](#-interactive-web-dashboard-streamlit)
-- [Project Directory Structure](#-project-directory-structure)
-- [Installation & Quickstart Guide](#-installation--quickstart-guide)
-- [Testing & Quality Assurance](#-testing--quality-assurance)
-- [Evaluation Criteria Alignment](#-evaluation-criteria-alignment)
-- [Limitations & Ethical Considerations](#-limitations--ethical-considerations)
-- [Scalability to 500+ Influencers](#-scalability-to-500-influencers)
+- [Interactive Web Dashboard (Streamlit)](#interactive-web-dashboard-streamlit)
+- [Project Directory Structure](#project-directory-structure)
+- [Installation & Quickstart Guide](#installation--quickstart-guide)
+- [Testing & Quality Assurance](#testing--quality-assurance)
+- [Evaluation Criteria Alignment](#evaluation-criteria-alignment)
+- [Limitations & Ethical Considerations](#limitations--ethical-considerations)
+- [Scalability to 500+ Influencers](#scalability-to-500-influencers)
 
 ---
 
-## 🏗️ System Architecture & Lifecycle
+## System Architecture & Lifecycle
 
 The pipeline operates as a modular, decoupled flow from initial discovery to delivery tracking:
 
@@ -49,7 +49,7 @@ flowchart TD
 
 ---
 
-## 🌟 Key Features & Highlights
+## Key Features & Highlights
 
 - **Real, Authentic Creator Data**: Discovers **58 verified Technology & AI influencers** across Instagram, TikTok, and YouTube with usernames, bios, locations, and follower counts. **No fabricated records or guessed emails**.
 - **Deterministic & Auditable Filtering**: Evaluates quantitative thresholds (5k–100k followers, $\ge 2.0\%$ ER) and qualitative brand safety rules, attaching explicit pass/fail rationale to each profile.
@@ -61,7 +61,7 @@ flowchart TD
 
 ---
 
-## 🛠️ Technology Stack & Tools Used
+## Technology Stack & Tools Used
 
 | Layer | Tools & Libraries | Purpose |
 | :--- | :--- | :--- |
@@ -76,7 +76,7 @@ flowchart TD
 
 ---
 
-## 🚀 Pipeline Components
+## Pipeline Components
 
 ### 1. Influencer Discovery
 - **Source**: Live public directories and verified creator marketplace (Collabstr Tech & AI directory).
@@ -132,7 +132,7 @@ Maintains a complete audit history in `data/processed/outreach_tracker.csv` with
 
 ---
 
-## 🖥️ Interactive Web Dashboard (Streamlit)
+## Interactive Web Dashboard (Streamlit)
 
 Launch the web application to visually explore and test every stage of the pipeline:
 
@@ -150,7 +150,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Directory Structure
+## Project Directory Structure
 
 ```
 automated-micro-influencer-outreach/
@@ -223,7 +223,7 @@ automated-micro-influencer-outreach/
 
 ---
 
-## ⚡ Installation & Quickstart Guide
+## Installation & Quickstart Guide
 
 ### 1. Clone the Repository
 ```bash
@@ -257,7 +257,7 @@ streamlit run app.py
 
 ---
 
-## 🧪 Testing & Quality Assurance
+## Testing & Quality Assurance
 
 Run the automated test suite:
 ```bash
@@ -274,7 +274,7 @@ python -m unittest discover tests
 
 ---
 
-## 📋 Evaluation Criteria Alignment
+## Evaluation Criteria Alignment
 
 | Criteria | System Implementation & Evidence |
 | :--- | :--- |
@@ -291,7 +291,7 @@ python -m unittest discover tests
 
 ---
 
-## ⚠️ Limitations & Ethical Considerations
+## Limitations & Ethical Considerations
 
 1. **Platform Rate Limits & Respectful Scraping**:
    - The live discovery adapter incorporates user-agent rotation and throttling delays (1.0s) to respect directory server capacity.
@@ -304,7 +304,7 @@ python -m unittest discover tests
 
 ---
 
-## 📈 Scalability to 500+ Influencers
+## Scalability to 500+ Influencers
 
 The architecture is built for horizontal scale:
 - **Asynchronous Scraping**: `BaseDiscoverySource` interface can be backed by `aiohttp` or Playwright for high-concurrency collection.
