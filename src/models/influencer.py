@@ -48,3 +48,19 @@ class DiscoveredInfluencer(BaseModel):
     bio: str
     platforms: List[PlatformMetric] = Field(default_factory=list)
     discovery_source: str
+
+
+class ClassificationResult(BaseModel):
+    """Audit outcome of filtering and brand-fit classification."""
+    status: str  # "PASSED" or "FAILED"
+    brand_fit_score: float  # 0.0 to 10.0 scale
+    primary_reason: str
+    detailed_reasons: List[str] = Field(default_factory=list)
+    criteria_checks: Dict[str, bool] = Field(default_factory=dict)
+
+
+class ClassifiedInfluencer(BaseModel):
+    """Influencer profile enriched with classification and filtering audit."""
+    influencer: DiscoveredInfluencer
+    classification: ClassificationResult
+
