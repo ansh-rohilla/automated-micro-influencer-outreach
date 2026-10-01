@@ -10,6 +10,14 @@ from src.models.influencer import (
     ClassifiedInfluencer,
 )
 from src.models.enrichment import EnrichedInfluencer
+from src.models.personalization import (
+    PersonalizedMessage,
+    PersonalizationBatch,
+)
+from src.models.outreach import (
+    OutreachLogEntry,
+    DispatchResult,
+)
 
 __all__ = [
     "PlatformMetric",
@@ -18,4 +26,8 @@ __all__ = [
     "ClassificationResult",
     "ClassifiedInfluencer",
     "EnrichedInfluencer",
+    "PersonalizedMessage",
+    "PersonalizationBatch",
+    "OutreachLogEntry",
+    "DispatchResult",
 ]
