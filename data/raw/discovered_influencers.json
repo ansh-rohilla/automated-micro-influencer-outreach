@@ -1,0 +1,2030 @@
+[
+  {
+    "id": "INF-001",
+    "name": "Eric Garcia",
+    "username": "ericgar",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/ericgar",
+    "follower_count": 500,
+    "follower_tier": "Nano (<5k)",
+    "estimated_engagement_rate": 4.42,
+    "category": "Technology & AI",
+    "content_themes": [
+      "AI & LLMs",
+      "SaaS & Cloud",
+      "Cybersecurity"
+    ],
+    "location": "Austin, TX, US",
+    "headline": "Technology Ugc Creator",
+    "bio": "I create short-form UGC and tech-focused content about AI, SaaS, and cybersecurity, drawing on my previous experience at AWS, DARPA, and Raytheon. My audience consists of bilingual English-Spanish speakers interested in technology and enterprise software. I am based in Austin, TX.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "0-1k Followers",
+        "follower_count": 500,
+        "profile_url": "https://collabstr.com/ericgar"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "0-1k Followers",
+        "follower_count": 500,
+        "profile_url": "https://collabstr.com/ericgar"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "0-1k Followers",
+        "follower_count": 500,
+        "profile_url": "https://collabstr.com/ericgar"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-002",
+    "name": "Toni Cuenca Garcia",
+    "username": "linkfydev",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/linkfydev",
+    "follower_count": 480400,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.83,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Coding & Dev"
+    ],
+    "location": "Barcelona, ES",
+    "headline": "Technology And Coding | Dev Content Creator",
+    "bio": "I'm an Engineer that makes content about technology, educational content, programming, and game development in Spanish.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "218.6k Followers",
+        "follower_count": 218600,
+        "profile_url": "https://collabstr.com/linkfydev"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "480.4k Followers",
+        "follower_count": 480400,
+        "profile_url": "https://collabstr.com/linkfydev"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "98K Followers",
+        "follower_count": 98000,
+        "profile_url": "https://collabstr.com/linkfydev"
+      },
+      {
+        "platform": "X (Twitter)",
+        "follower_text": "1k-10k Followers",
+        "follower_count": 5500,
+        "profile_url": "https://collabstr.com/linkfydev"
+      },
+      {
+        "platform": "Twitch",
+        "follower_text": "3.4k Followers",
+        "follower_count": 3400,
+        "profile_url": "https://collabstr.com/linkfydev"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-003",
+    "name": "Kimberlyn Padilla",
+    "username": "kimberlynpadilla",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/kimberlynpadilla",
+    "follower_count": 60200,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.21,
+    "category": "Technology & AI",
+    "content_themes": [
+      "AI & LLMs",
+      "Mobile & Apps"
+    ],
+    "location": "Cucuta, CO",
+    "headline": "Ugc Creator: Beauty And Technology",
+    "bio": "I create authentic UGC videos for beauty, technology, AI tools, mobile apps, and lifestyle brands, including product demos, tutorials, reviews, and relatable storytelling that helps brands connect with Spanish-speaking audiences. I produce engaging, high-quality content designed to build trust and …",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "1.9k Followers",
+        "follower_count": 1900,
+        "profile_url": "https://collabstr.com/kimberlynpadilla"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "60.2k Followers",
+        "follower_count": 60200,
+        "profile_url": "https://collabstr.com/kimberlynpadilla"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-004",
+    "name": "Diego Montes B",
+    "username": "diegoinnovacion",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/diegoinnovacion",
+    "follower_count": 56800,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.18,
+    "category": "Technology & AI",
+    "content_themes": [
+      "AI & LLMs",
+      "Startups & Tech Business"
+    ],
+    "location": "Lima, PE",
+    "headline": "Innovative Insights Into Business And Technology Trends",
+    "bio": "I'm a content creator focused on innovation, business, and practical applications of artificial intelligence for entrepreneurs and professionals in Latin America. My videos share real stories of startups, companies, and success cases, breaking down how to use technology to increase sales, optimize …",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "35.0k Followers",
+        "follower_count": 35000,
+        "profile_url": "https://collabstr.com/diegoinnovacion"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "56.8k Followers",
+        "follower_count": 56800,
+        "profile_url": "https://collabstr.com/diegoinnovacion"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-005",
+    "name": "Mayura Panemangalore",
+    "username": "thenadcoderacademy",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/thenadcoderacademy",
+    "follower_count": 166600,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.31,
+    "category": "Technology & AI",
+    "content_themes": [
+      "AI & LLMs",
+      "Coding & Dev",
+      "Tech Education & Tutorials"
+    ],
+    "location": "Dallas, TX, US",
+    "headline": "Technology, Ai & Coding Content Creator",
+    "bio": "I'm Sujay, the creator behind TheNadcoder – a fast-growing tech education and lifestyle brand with 56K+ engaged subscribers on Instagram and 10K subs on Youtube. I blend deep technical knowledge with relatable storytelling to make complex topics simple, fun, and actionable.\r\n\r\n👨‍💻 Content Focus:\r\n\r…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "166.6k Followers",
+        "follower_count": 166600,
+        "profile_url": "https://collabstr.com/thenadcoderacademy"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "14.3K Followers",
+        "follower_count": 14300,
+        "profile_url": "https://collabstr.com/thenadcoderacademy"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-006",
+    "name": "Diana Pusde",
+    "username": "dianapusde",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/dianapusde",
+    "follower_count": 200700,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 2.51,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Jakarta, JK, ID",
+    "headline": "Lifestyle, Technology, Skincare, And Travel",
+    "bio": "Hi, I’m @daypusde — \nUGC Creator | Product Demo | \nTechnology | Lifestyle | Beauty | Apps\nLet’s collaboration",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "109.8k Followers",
+        "follower_count": 109800,
+        "profile_url": "https://collabstr.com/dianapusde"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "200.7k Followers",
+        "follower_count": 200700,
+        "profile_url": "https://collabstr.com/dianapusde"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "1k-10k Followers",
+        "follower_count": 5500,
+        "profile_url": "https://collabstr.com/dianapusde"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-007",
+    "name": "Joseph Badiger",
+    "username": "josephbadiger",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/josephbadiger",
+    "follower_count": 50600,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 1.95,
+    "category": "Technology & AI",
+    "content_themes": [
+      "AI & LLMs"
+    ],
+    "location": "New York, NY, US",
+    "headline": "Technology Creator",
+    "bio": "I'm Joseph Badiger, an AI creator passionate about building, experimenting, and sharing. I create content about AI, technology, automation, and digital tools, while also building products and websites that solve real problems.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "50.6k Followers",
+        "follower_count": 50600,
+        "profile_url": "https://collabstr.com/josephbadiger"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-008",
+    "name": "Nik Lr",
+    "username": "theunboxrstudio",
+    "primary_platform": "YouTube",
+    "profile_url": "https://collabstr.com/theunboxrstudio",
+    "follower_count": 195000,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.2,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Como, IT",
+    "headline": "Technology, Vlog, Automotive Content Creator",
+    "bio": "Hey everyone! I'm Nikolas La Rocca, and this is The Unboxr, the YouTube channel where technology comes to life!\r\nWhat can you expect from my channel? Well, a bit of everything! I unbox the latest smartphones with a keen eye for detail,  put them through their paces with in-depth reviews, and compar…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "180.5k Followers",
+        "follower_count": 180500,
+        "profile_url": "https://collabstr.com/theunboxrstudio"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "195K Followers",
+        "follower_count": 195000,
+        "profile_url": "https://collabstr.com/theunboxrstudio"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-009",
+    "name": "Abdelhamid Oughanem",
+    "username": "abdelhamidhania",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/abdelhamidhania",
+    "follower_count": 13600,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.82,
+    "category": "Technology & AI",
+    "content_themes": [
+      "AI & LLMs",
+      "SaaS & Cloud",
+      "Coding & Dev",
+      "Startups & Tech Business"
+    ],
+    "location": "Ottawa, ON, CA",
+    "headline": "Technology Simplifier And Automation Specialist For The Elite",
+    "bio": "I am the founder of hania. I specialize in demystifying technology and AI, making them accessible to everyone. Based in Canada, I leverage my expertise as a software developer to deliver practical solutions that enhance productivity and streamline workflows for a global audience. My content focuses…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "13.6k Followers",
+        "follower_count": 13600,
+        "profile_url": "https://collabstr.com/abdelhamidhania"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "1k-10k Followers",
+        "follower_count": 5500,
+        "profile_url": "https://collabstr.com/abdelhamidhania"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-010",
+    "name": "Christopher Dominguez",
+    "username": "aztekfx",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/aztekfx",
+    "follower_count": 59800,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.02,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Estado de Mexico, CAM, MX",
+    "headline": "Digital Technology Innovator And Content Creator",
+    "bio": "Hi, I'm Aztek, a content creator focused on gaming, technology, gadgets, and viral products. I create engaging short-form videos featuring product reviews, unboxings, demonstrations, and honest opinions that help viewers discover innovative products. My audience is primarily based in Mexico and Lat…",
+    "platforms": [
+      {
+        "platform": "TikTok",
+        "follower_text": "59.8k Followers",
+        "follower_count": 59800,
+        "profile_url": "https://collabstr.com/aztekfx"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-011",
+    "name": "Crypto Ai Investments",
+    "username": "modernchannel",
+    "primary_platform": "YouTube",
+    "profile_url": "https://collabstr.com/modernchannel",
+    "follower_count": 54000,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 1.75,
+    "category": "Technology & AI",
+    "content_themes": [
+      "AI & LLMs",
+      "Startups & Tech Business"
+    ],
+    "location": "Istanbul, TR",
+    "headline": "Crypto, Investment, Technology",
+    "bio": "I am share videos about of cryptocurrency, ai, memecoins, investment sites and technology projects and products.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "follower_text": "54K Followers",
+        "follower_count": 54000,
+        "profile_url": "https://collabstr.com/modernchannel"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-012",
+    "name": "Tariq Aljuwayid",
+    "username": "tariqtechs",
+    "primary_platform": "YouTube",
+    "profile_url": "https://collabstr.com/tariqtechs",
+    "follower_count": 250050,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 0.8,
+    "category": "Technology & AI",
+    "content_themes": [
+      "AI & LLMs",
+      "SaaS & Cloud",
+      "Tech Education & Tutorials"
+    ],
+    "location": "Riyadh, SA",
+    "headline": "Technology",
+    "bio": "Technology and gadgets: smartphones, laptops, smart home devices, gaming, software, online services, UX, awareness, automation, AI, design, and tips",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "50k-100k Followers",
+        "follower_count": 75000,
+        "profile_url": "https://collabstr.com/tariqtechs"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "75.7k Followers",
+        "follower_count": 75700,
+        "profile_url": "https://collabstr.com/tariqtechs"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "100k-500k Followers",
+        "follower_count": 250050,
+        "profile_url": "https://collabstr.com/tariqtechs"
+      },
+      {
+        "platform": "X (Twitter)",
+        "follower_text": "100k-500k Followers",
+        "follower_count": 250050,
+        "profile_url": "https://collabstr.com/tariqtechs"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-013",
+    "name": "Wealth Circal",
+    "username": "wealthcircal",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/wealthcircal",
+    "follower_count": 25800,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.32,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Tech Education & Tutorials"
+    ],
+    "location": "Elbistan, TR",
+    "headline": "Viral Content Creator | Facts • Wealth • Technology",
+    "bio": "I specialize in creating engaging short-form content that blends education and entertainment, focusing on intriguing facts, wealth insights, technology trends, and captivating real-world topics. My mission is to deliver bite-sized, informative videos that resonate with a diverse global audience, sp…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "25.8k Followers",
+        "follower_count": 25800,
+        "profile_url": "https://collabstr.com/wealthcircal"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-014",
+    "name": "Cristian Via",
+    "username": "tecnopasion",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/tecnopasion",
+    "follower_count": 109100,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 2.27,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Tarragona, ES",
+    "headline": "Technology Innovator And 3d Content Creator",
+    "bio": "Passionate about the latest innovations, I specialize in creating captivating content that explores cutting-edge technologies and fascinating gadgets. I focus on bringing the world of 3D printing to life, showcasing its endless possibilities through engaging tutorials, reviews, and creative project…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "72.6k Followers",
+        "follower_count": 72600,
+        "profile_url": "https://collabstr.com/tecnopasion"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "109.1k Followers",
+        "follower_count": 109100,
+        "profile_url": "https://collabstr.com/tecnopasion"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "10k-50k Followers",
+        "follower_count": 30000,
+        "profile_url": "https://collabstr.com/tecnopasion"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-015",
+    "name": "Mohamed Hamed",
+    "username": "infology",
+    "primary_platform": "YouTube",
+    "profile_url": "https://collabstr.com/infology",
+    "follower_count": 1240000,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.12,
+    "category": "Technology & AI",
+    "content_themes": [
+      "AI & LLMs",
+      "Tech Education & Tutorials"
+    ],
+    "location": "Alger, DZ",
+    "headline": "Education And Technology",
+    "bio": "I run Infology, an Arabic educational channel that publishes content about e-learning and the application of AI tools in education, research and self-study. My audience follows me across YouTube (1.23M subscribers), Instagram (159K, verified) and TikTok (145K) for free courses, academic resources a…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "100k-500k Followers",
+        "follower_count": 250050,
+        "profile_url": "https://collabstr.com/infology"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "100k-500k Followers",
+        "follower_count": 250050,
+        "profile_url": "https://collabstr.com/infology"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "1.24M Followers",
+        "follower_count": 1240000,
+        "profile_url": "https://collabstr.com/infology"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-016",
+    "name": "Husnain Alvi",
+    "username": "alvisahib11",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/alvisahib11",
+    "follower_count": 45100,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.6,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Tech Hardware & Gadgets"
+    ],
+    "location": "Lahore, PB, PK",
+    "headline": "Explore Technology & Unboxing Products",
+    "bio": "I create hands-on unboxing videos, product reviews, and tech exploration content.\n🧠 Discover the latest gadgets, smart devices, and trending technology in action.\n👀 Perfect for tech lovers, early adopters, and anyone looking to buy smarter.\n📦 Follow for daily tech unboxings and honest first impress…",
+    "platforms": [
+      {
+        "platform": "TikTok",
+        "follower_text": "45.1k Followers",
+        "follower_count": 45100,
+        "profile_url": "https://collabstr.com/alvisahib11"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-017",
+    "name": "Antonio Diaz",
+    "username": "antonioidiaz",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/antonioidiaz",
+    "follower_count": 1100,
+    "follower_tier": "Nano (<5k)",
+    "estimated_engagement_rate": 4.84,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Mercer Island, WA, US",
+    "headline": "Automotive And Technology Lifestyle Creator",
+    "bio": "I create content around cars, fashion, and technology, with a focus on my Porsche 911 4S and life in Seattle. People who follow me are interested in automotive, style, and tech content.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "1.1k Followers",
+        "follower_count": 1100,
+        "profile_url": "https://collabstr.com/antonioidiaz"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "0-1k Followers",
+        "follower_count": 500,
+        "profile_url": "https://collabstr.com/antonioidiaz"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-018",
+    "name": "Eyad Zein",
+    "username": "eyadzein",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/eyadzein",
+    "follower_count": 55400,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.66,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Cairo, EG",
+    "headline": "Innovative Technology Reviewer And Digital Content Creator",
+    "bio": "As a skilled video editor and videographer with a deep passion for technology, I specialize in creating engaging content that resonates with audiences. I review the latest tech products, websites, and apps, offering insightful perspectives that help consumers make informed decisions. With a creativ…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "34.1k Followers",
+        "follower_count": 34100,
+        "profile_url": "https://collabstr.com/eyadzein"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "55.4k Followers",
+        "follower_count": 55400,
+        "profile_url": "https://collabstr.com/eyadzein"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-019",
+    "name": "Damarion",
+    "username": "mryg277",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/mryg277",
+    "follower_count": 23900,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.26,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Startups & Tech Business"
+    ],
+    "location": "Illinois City, IL, US",
+    "headline": "Technology, And Entertainment Content Creator",
+    "bio": "I am a passionate content creator who specializes in music-related content, technology, and entertainment. My work focuses on crafting engaging videos that bring together creativity, innovation, and sound. I create content that highlights music lyrics, playback experiences, and cutting-edge devices…",
+    "platforms": [
+      {
+        "platform": "TikTok",
+        "follower_text": "23.9k Followers",
+        "follower_count": 23900,
+        "profile_url": "https://collabstr.com/mryg277"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-020",
+    "name": "Varsha Dr",
+    "username": "techwithvarsha",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/techwithvarsha",
+    "follower_count": 251400,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.7,
+    "category": "Technology & AI",
+    "content_themes": [
+      "AI & LLMs",
+      "SaaS & Cloud"
+    ],
+    "location": "Bangalore, KA, IN",
+    "headline": "Tech Influencer — Ai And Technology Insights For Aspiring Engineers And Founders",
+    "bio": "I am a software engineer and creator (@techwithvarsha) exploring the intersection of technology, modern lifestyle, and productivity. My content documents the reality of building a career in tech — from the tools I use and the way I work to the experiences that shape my journey as a remote engineer …",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "251.4k Followers",
+        "follower_count": 251400,
+        "profile_url": "https://collabstr.com/techwithvarsha"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-021",
+    "name": "Aislinn Cody",
+    "username": "alr3adyd3ad50",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/alr3adyd3ad50",
+    "follower_count": 108500,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.87,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Buffalo, NY, US",
+    "headline": "Lifestyle, Thrifting, And 2000s Fashion Content Creator",
+    "bio": "I’m a Gen Z content creator sharing lifestyle, thrifting, and 2000s fashion content with a nostalgic, alternative twist. I create relatable videos that highlight Y2K trends, secondhand finds, and everyday style inspiration for a highly engaged audience.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "42.5k Followers",
+        "follower_count": 42500,
+        "profile_url": "https://collabstr.com/alr3adyd3ad50"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "108.5k Followers",
+        "follower_count": 108500,
+        "profile_url": "https://collabstr.com/alr3adyd3ad50"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "50k-100k Followers",
+        "follower_count": 75000,
+        "profile_url": "https://collabstr.com/alr3adyd3ad50"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-022",
+    "name": "Estrella Campbell",
+    "username": "iridescentsoulx",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/iridescentsoulx",
+    "follower_count": 5900,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.36,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Austin, TX, US",
+    "headline": "Content Creator",
+    "bio": "I am a 28 year old content creator located in Central Texas. I create content on hair care, wigs, anime, makeup, and fashion.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "5.9k Followers",
+        "follower_count": 5900,
+        "profile_url": "https://collabstr.com/iridescentsoulx"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-023",
+    "name": "Sydielid Izquierdo Delgado",
+    "username": "sydielid",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/sydielid",
+    "follower_count": 1600,
+    "follower_tier": "Nano (<5k)",
+    "estimated_engagement_rate": 5.73,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Hialeah, FL, US",
+    "headline": "Lifestyle Influencer Sharing Home Essentials For Modern Moms 🫶🏻",
+    "bio": "As a modern mom dedicated to simplifying family life, I create and share engaging content centered on home essentials and must-have products that elevate daily routines. My fAs a modern mom dedicated to simplifying family life, I create and share engaging content centered on home essentials and mus…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "871 Followers",
+        "follower_count": 871,
+        "profile_url": "https://collabstr.com/sydielid"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "1.6k Followers",
+        "follower_count": 1600,
+        "profile_url": "https://collabstr.com/sydielid"
+      },
+      {
+        "platform": "Amazon",
+        "follower_text": "View",
+        "follower_count": 0,
+        "profile_url": "https://collabstr.com/sydielid"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-024",
+    "name": "Hassan Boufrat",
+    "username": "boufrat",
+    "primary_platform": "YouTube",
+    "profile_url": "https://collabstr.com/boufrat",
+    "follower_count": 75000,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 1.41,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Casablanca, CAS, MA",
+    "headline": "Travel & Hospitality Content Creator | 830k+ Reach & Performance Marketer",
+    "bio": "Travel and hospitality video creator and performance marketing specialist with an engaged ecosystem of over 830,000 followers (744,000+ on Facebook). Verified Google Maps Local Guide Level 6 with over 4.9 million views. Delivering cinematic vertical Reels, in-depth reviews, and high-converting UGC …",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "67.1k Followers",
+        "follower_count": 67100,
+        "profile_url": "https://collabstr.com/boufrat"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "34.9k Followers",
+        "follower_count": 34900,
+        "profile_url": "https://collabstr.com/boufrat"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "50k-100k Followers",
+        "follower_count": 75000,
+        "profile_url": "https://collabstr.com/boufrat"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-025",
+    "name": "Isabella Quintero",
+    "username": "eesaquint",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/eesaquint",
+    "follower_count": 23300,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.61,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Miami, FL, US",
+    "headline": "Fashion And Beauty Content Creator 🙂",
+    "bio": "I am a Latina, Miami-based content creator passionate about all things fabulous, with a special love for fragrances, makeup, fashion, and hair care.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "5.0k Followers",
+        "follower_count": 5000,
+        "profile_url": "https://collabstr.com/eesaquint"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "23.3k Followers",
+        "follower_count": 23300,
+        "profile_url": "https://collabstr.com/eesaquint"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-026",
+    "name": "Nicole Arbour",
+    "username": "nicolearbour",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/nicolearbour",
+    "follower_count": 2200000,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.2,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Miami Beach, FL, US",
+    "headline": "Comedy Creator",
+    "bio": "Let’s win! I have over 3 billion views on my comedy-focused content across TikTok, Instagram, and YouTube, where I share jokes, commentary, and perspectives meant to make people laugh, think, and cheer. My audience follows me for my work as a comedian, recording artist, and creative director, and l…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "2.2M Followers",
+        "follower_count": 2200000,
+        "profile_url": "https://collabstr.com/nicolearbour"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "673.6k Followers",
+        "follower_count": 673600,
+        "profile_url": "https://collabstr.com/nicolearbour"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "100k-500k Followers",
+        "follower_count": 250050,
+        "profile_url": "https://collabstr.com/nicolearbour"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-027",
+    "name": "Brianna Furey",
+    "username": "creatingminimagic",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/creatingminimagic",
+    "follower_count": 1900,
+    "follower_tier": "Nano (<5k)",
+    "estimated_engagement_rate": 4.38,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Orangevale, CA, US",
+    "headline": "Content Creator: Kids, Family, And Home",
+    "bio": "Hi, I'm Brianna, a passionate, play-based educator and dedicated mom who creates authentic, story-driven UGC that brings products to life. I specialize in relatable content centered on kids, family, home, and everyday lifestyle: from creative play and educational products to family essentials that …",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "1.9k Followers",
+        "follower_count": 1900,
+        "profile_url": "https://collabstr.com/creatingminimagic"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "1.8k Followers",
+        "follower_count": 1800,
+        "profile_url": "https://collabstr.com/creatingminimagic"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-028",
+    "name": "Abdul Lathif Ilyas",
+    "username": "yunmakaveli",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/yunmakaveli",
+    "follower_count": 9000,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 4.01,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Startups & Tech Business"
+    ],
+    "location": "Dubai, UAE",
+    "headline": "Entrepreneur And Sales Professional",
+    "bio": "I share insights from my work in sales and entrepreneurship while documenting life between the UAE and Sri Lanka. An audience of about 12.7k on Instagram follows my posts about business projects, day-to-day work life, and ventures I co-founded.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "9.0k Followers",
+        "follower_count": 9000,
+        "profile_url": "https://collabstr.com/yunmakaveli"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-029",
+    "name": "Daniela Jorge",
+    "username": "danijorge",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/danijorge",
+    "follower_count": 7100,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.77,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Tech Education & Tutorials"
+    ],
+    "location": "Miami, FL, US",
+    "headline": "A Lifestyle And Beauty Influencer Sharing Tips And Inspiration.",
+    "bio": "I am a Miami-based beauty and lifestyle creator who shares beauty, fashion, skincare, and everyday lifestyle content through authentic and aesthetic videos. I create relatable UGC-style content for brands and audiences who love beauty, self-care, and fashion inspiration ✨",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "7.1k Followers",
+        "follower_count": 7100,
+        "profile_url": "https://collabstr.com/danijorge"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "1.3k Followers",
+        "follower_count": 1300,
+        "profile_url": "https://collabstr.com/danijorge"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-030",
+    "name": "Merve Tas",
+    "username": "merveugc",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/merveugc",
+    "follower_count": 452500,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.55,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Tech Education & Tutorials"
+    ],
+    "location": "Katy, TX, US",
+    "headline": "User-Generated Content Creator",
+    "bio": "Hi, I'm Merve, a content creator and influencer based in Texas. I love sharing lifestyle, family, and product review content—especially things that make everyday life easier or more fun. My content is authentic, relatable, and visually appealing, with a focus on families, babies, and practical tips…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "452.5k Followers",
+        "follower_count": 452500,
+        "profile_url": "https://collabstr.com/merveugc"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "1k-10k Followers",
+        "follower_count": 5500,
+        "profile_url": "https://collabstr.com/merveugc"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-031",
+    "name": "Sabrina Puzella",
+    "username": "91sabry",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/91sabry",
+    "follower_count": 39900,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.6,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Ischia, NA, IT",
+    "headline": "Lifestyle Influencer",
+    "bio": "Adventurous, elegant, nature-loving, with a warm boho-chic style and a creative spirit, always with a smile.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "39.9k Followers",
+        "follower_count": 39900,
+        "profile_url": "https://collabstr.com/91sabry"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-032",
+    "name": "Regiane Domingues",
+    "username": "regianedomingues",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/regianedomingues",
+    "follower_count": 42200,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.33,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Kearny, NJ, US",
+    "headline": "Content Creator, Sales Strategist And Mental Trigger",
+    "bio": "I’m Regiane Domingues, a Brazilian content creator and UGC specialist based in the U.S. With over 12 years of experience in marketing, beauty, fashion and lifestyle, I create authentic, high-converting videos and photos that emotionally connect with audiences. My content speaks directly to women be…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "42.2k Followers",
+        "follower_count": 42200,
+        "profile_url": "https://collabstr.com/regianedomingues"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "4.4k Followers",
+        "follower_count": 4400,
+        "profile_url": "https://collabstr.com/regianedomingues"
+      },
+      {
+        "platform": "Amazon",
+        "follower_text": "View",
+        "follower_count": 0,
+        "profile_url": "https://collabstr.com/regianedomingues"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-033",
+    "name": "Mike's Home Esl",
+    "username": "mikeshomeesl",
+    "primary_platform": "YouTube",
+    "profile_url": "https://collabstr.com/mikeshomeesl",
+    "follower_count": 710000,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.26,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Tech Education & Tutorials",
+      "Startups & Tech Business"
+    ],
+    "location": "San Jose, CA, US",
+    "headline": "Education English As A Second Language",
+    "bio": "ESL teacher and content creator living in China since 2001. Influencer with over 650K+ subscribers on YouTube, sharing innovative teaching strategies and engaging educational content. Founder of a global teacher community dedicated to making classrooms more interactive and fun. Experienced in creat…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "87.1k Followers",
+        "follower_count": 87100,
+        "profile_url": "https://collabstr.com/mikeshomeesl"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "24.6k Followers",
+        "follower_count": 24600,
+        "profile_url": "https://collabstr.com/mikeshomeesl"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "710K Followers",
+        "follower_count": 710000,
+        "profile_url": "https://collabstr.com/mikeshomeesl"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-034",
+    "name": "Vinny Scarpa",
+    "username": "vinnyscarpacomedy",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/vinnyscarpacomedy",
+    "follower_count": 5600,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.91,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Startups & Tech Business"
+    ],
+    "location": "Morristown, NJ, US",
+    "headline": "Stand Up Comedian And Actor Exploring Life And Discovering Opportunities!",
+    "bio": "Actor, entrepreneur & high-conversion UGC creator.\r\nI specialize in authentic, direct-to-camera videos that build trust and drive action.\r\nExperienced in sales, lifestyle, grooming, and tech tools.\r\nClean visuals. Clear messaging. Real engagement.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "1.7k Followers",
+        "follower_count": 1700,
+        "profile_url": "https://collabstr.com/vinnyscarpacomedy"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "5.6k Followers",
+        "follower_count": 5600,
+        "profile_url": "https://collabstr.com/vinnyscarpacomedy"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "58 Followers",
+        "follower_count": 58,
+        "profile_url": "https://collabstr.com/vinnyscarpacomedy"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-035",
+    "name": "Katherine Wood",
+    "username": "maomaoandmaki",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/maomaoandmaki",
+    "follower_count": 36900,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.76,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Phoenix, AZ, US",
+    "headline": "Pet + Lifestyle Creator",
+    "bio": "Hi, I’m Kat! I’m the human behind the cats of @maomaoandmaki, where I share my passion for easy enrichment, quality cat food, and lifestyle upgrades that keep every member of the family happy.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "36.9k Followers",
+        "follower_count": 36900,
+        "profile_url": "https://collabstr.com/maomaoandmaki"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "0-1k Followers",
+        "follower_count": 500,
+        "profile_url": "https://collabstr.com/maomaoandmaki"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-036",
+    "name": "Tiffany Hilton",
+    "username": "tiffanytheceo",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/tiffanytheceo",
+    "follower_count": 43600,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.74,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Union South Carolina, SC, US",
+    "headline": "Beauty, Fashion, Lifestyle Influencer",
+    "bio": "Hello, my name is Tiffany and I am a passionate creator with a focus on beauty, fashion, lifestyle, decor, and many more. Over the years, I have built a strong online presence and have developed expertise in creating engaging and informative content that resonates with my audience.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "43.6k Followers",
+        "follower_count": 43600,
+        "profile_url": "https://collabstr.com/tiffanytheceo"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "18.0k Followers",
+        "follower_count": 18000,
+        "profile_url": "https://collabstr.com/tiffanytheceo"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "988 Followers",
+        "follower_count": 988,
+        "profile_url": "https://collabstr.com/tiffanytheceo"
+      },
+      {
+        "platform": "Amazon",
+        "follower_text": "View",
+        "follower_count": 0,
+        "profile_url": "https://collabstr.com/tiffanytheceo"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-037",
+    "name": "Omalix Martinez",
+    "username": "itsgiathecat",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/itsgiathecat",
+    "follower_count": 11300,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.31,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Orlando, FL, US",
+    "headline": "It's Gia The Cat | Cat Content Creator",
+    "bio": "Hi! I’m the creator behind @itsgiathecat — a cat-loving household featuring Gia, a spirited Russian Blue mix rescued as a bottle-fed kitten, and Elise, a sweet, fluffy cuddlebug who joined to be Gia’s playful companion. Together with my young son, we share heartwarming, humorous, and highly relatab…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "11.3k Followers",
+        "follower_count": 11300,
+        "profile_url": "https://collabstr.com/itsgiathecat"
+      },
+      {
+        "platform": "Amazon",
+        "follower_text": "View",
+        "follower_count": 0,
+        "profile_url": "https://collabstr.com/itsgiathecat"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-038",
+    "name": "Madi Nicole",
+    "username": "madinicole",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/madinicole",
+    "follower_count": 17100,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 4.04,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Tech Education & Tutorials"
+    ],
+    "location": "Fayetteville, AR, US",
+    "headline": "Student, Lifestyle,And Beauty Creator",
+    "bio": "I am a 22 year old student at the University of Arkansas majoring in Apparel Merchandising and product development. I make content for everyone looking for lifestyle,beauty, and fashion tips!",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "3.4k Followers",
+        "follower_count": 3400,
+        "profile_url": "https://collabstr.com/madinicole"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "17.1k Followers",
+        "follower_count": 17100,
+        "profile_url": "https://collabstr.com/madinicole"
+      },
+      {
+        "platform": "Amazon",
+        "follower_text": "View",
+        "follower_count": 0,
+        "profile_url": "https://collabstr.com/madinicole"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-039",
+    "name": "Judy Ann Miyara",
+    "username": "just8ate",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/just8ate",
+    "follower_count": 35000,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.54,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Thousand Oaks, CA, US",
+    "headline": "Just8ate | Easy Recipes | Food Adventures",
+    "bio": "Welcome to Just.8.Ate! We’re Luis and JudyAnn. The husband and wife authors of the Just.8.Ate APPETIZING ADVENTURES Cooking Blog. We are truly a #foodie, and love to eat, and make all kinds of recipes to cook and eat!!! Just8ate is a collection of the whole food recipes we cook in our kitchen and l…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "35.0k Followers",
+        "follower_count": 35000,
+        "profile_url": "https://collabstr.com/just8ate"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "5.56K Followers",
+        "follower_count": 5560,
+        "profile_url": "https://collabstr.com/just8ate"
+      },
+      {
+        "platform": "X (Twitter)",
+        "follower_text": "1k-10k Followers",
+        "follower_count": 5500,
+        "profile_url": "https://collabstr.com/just8ate"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-040",
+    "name": "The Price Family",
+    "username": "thepricefamily",
+    "primary_platform": "YouTube",
+    "profile_url": "https://collabstr.com/thepricefamily",
+    "follower_count": 251000,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.53,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Atlanta, GA, US",
+    "headline": "Content Creator, Youtuber, Influencer",
+    "bio": "Hey guys We Are The Price Family, A family of 6. 2 girls, 4 boys and a beautiful mother. We love creating content for awesome people like yourself & bringing your vision to life. Let us be the Face of your brand.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "17.5k Followers",
+        "follower_count": 17500,
+        "profile_url": "https://collabstr.com/thepricefamily"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "251K Followers",
+        "follower_count": 251000,
+        "profile_url": "https://collabstr.com/thepricefamily"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-041",
+    "name": "Max Waddle-Stenton",
+    "username": "mws",
+    "primary_platform": "YouTube",
+    "profile_url": "https://collabstr.com/mws",
+    "follower_count": 82700,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 1.99,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Leeds, LDS, GB",
+    "headline": "Football Content Creator",
+    "bio": "I create sports-based narrative videos that have built a loyal audience passionate about sports, gaming, and story-based content.",
+    "platforms": [
+      {
+        "platform": "TikTok",
+        "follower_text": "31.1k Followers",
+        "follower_count": 31100,
+        "profile_url": "https://collabstr.com/mws"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "82.7K Followers",
+        "follower_count": 82700,
+        "profile_url": "https://collabstr.com/mws"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-042",
+    "name": "Sune Beale",
+    "username": "sunebeale",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/sunebeale",
+    "follower_count": 25100,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.86,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Bremen, HB, DE",
+    "headline": "Ugc Content Creator And Professional Video Filming And Editing",
+    "bio": "My name is Suné, your friendly content creator! I love filming content and editing images and videos. I have worked with multiple brands over the years, filming high quality content and delivering good results.\r\n\r\nI have specialized filming and editing equipment, so all deliverables will always be …",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "25.1k Followers",
+        "follower_count": 25100,
+        "profile_url": "https://collabstr.com/sunebeale"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "12.7K Followers",
+        "follower_count": 12700,
+        "profile_url": "https://collabstr.com/sunebeale"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-043",
+    "name": "Jessa Jaydin",
+    "username": "jessajaydin",
+    "primary_platform": "X (Twitter)",
+    "profile_url": "https://collabstr.com/jessajaydin",
+    "follower_count": 75000,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 1.93,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Jupiter, FL, US",
+    "headline": "Musician - Singer - Songwriter - Pianist - Guitarist",
+    "bio": "I am a musician based out of Nashville, Tennessee & Jupiter, Florida. I sing, write my own songs, and play guitar & piano. I just opened for Bon Jovi at Bridgestone Arena & that was a blast :) I love fitness, the beach, and doggies!",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "55.2k Followers",
+        "follower_count": 55200,
+        "profile_url": "https://collabstr.com/jessajaydin"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "4.33K Followers",
+        "follower_count": 4330,
+        "profile_url": "https://collabstr.com/jessajaydin"
+      },
+      {
+        "platform": "X (Twitter)",
+        "follower_text": "50k-100k Followers",
+        "follower_count": 75000,
+        "profile_url": "https://collabstr.com/jessajaydin"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-044",
+    "name": "Desiree Harden",
+    "username": "cree",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/cree",
+    "follower_count": 100500,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.75,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "West Orange, NJ, US",
+    "headline": "Motivation Mom Who Loves Fashion And Food",
+    "bio": "As a passionate mom, I create engaging and uplifting content that blends motivation, humor, and fitness to inspire fellow parents on their wellness journeys. My videos resonate with both moms and dads, offering relatable and entertaining insights into balancing family life while staying active and …",
+    "platforms": [
+      {
+        "platform": "TikTok",
+        "follower_text": "100.5k Followers",
+        "follower_count": 100500,
+        "profile_url": "https://collabstr.com/cree"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "50k-100k Followers",
+        "follower_count": 75000,
+        "profile_url": "https://collabstr.com/cree"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-045",
+    "name": "Katy",
+    "username": "katynjf",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/katynjf",
+    "follower_count": 250050,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.49,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Tech Hardware & Gadgets"
+    ],
+    "location": "Montreal, QC, CA",
+    "headline": "Traveler | Videographer And Photographer | Adventurer",
+    "bio": "I'm a Canada-based traveler and videographer. I turn road trips into cinematic content using professional gear, focusing on rugged exploration, travel tech, and high-end visuals for an audience that lives for the journey.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "100k-500k Followers",
+        "follower_count": 250050,
+        "profile_url": "https://collabstr.com/katynjf"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "6.93K Followers",
+        "follower_count": 6930,
+        "profile_url": "https://collabstr.com/katynjf"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-046",
+    "name": "Nikole",
+    "username": "ugcnikole1",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/ugcnikole1",
+    "follower_count": 9800,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 4.62,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Pedricktown, NJ, US",
+    "headline": "A Lifestyle And Beauty Ugc Creator Focused On Authentic Product Storytelling.",
+    "bio": "Hi! I'm Nikole, a lifestyle and beauty UGC creator who helps brands bring their products to life through authentic, engaging content. I specialize in beauty, fashion, home, and wellness videos that feel natural, relatable, and visually polished. My goal is to create content that brands can use to b…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "1.1k Followers",
+        "follower_count": 1100,
+        "profile_url": "https://collabstr.com/ugcnikole1"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "9.8k Followers",
+        "follower_count": 9800,
+        "profile_url": "https://collabstr.com/ugcnikole1"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "888 Followers",
+        "follower_count": 888,
+        "profile_url": "https://collabstr.com/ugcnikole1"
+      },
+      {
+        "platform": "Amazon",
+        "follower_text": "View",
+        "follower_count": 0,
+        "profile_url": "https://collabstr.com/ugcnikole1"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-047",
+    "name": "Hely Hernández",
+    "username": "helyhernandezz",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/helyhernandezz",
+    "follower_count": 11400,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 3.77,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Madrid, ES",
+    "headline": "Equestrian Lifestyle And Fitness Model Sharing Elegant Content In Spain",
+    "bio": "Based in Spain, I am a model and lifestyle content creator with a passion for equestrian life, fitness, and refined everyday living. I specialize in producing high-quality visuals that authentically showcase brands, blending elegance with a dynamic lifestyle. My content highlights the beauty of equ…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "11.4k Followers",
+        "follower_count": 11400,
+        "profile_url": "https://collabstr.com/helyhernandezz"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "1.5k Followers",
+        "follower_count": 1500,
+        "profile_url": "https://collabstr.com/helyhernandezz"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "163 Followers",
+        "follower_count": 163,
+        "profile_url": "https://collabstr.com/helyhernandezz"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-048",
+    "name": "Albaronatx",
+    "username": "albaronatx",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/albaronatx",
+    "follower_count": 414600,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 0.98,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Casablanca, CAS, MA",
+    "headline": "Gaming And Beauty Content Creator",
+    "bio": "Im A 25 yo Married Moroccan Content Creator ( Old Streamer in twitch )\r\nPlatforms : \r\n- Instagram | Tiktok | YouTube | Facebook",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "414.6k Followers",
+        "follower_count": 414600,
+        "profile_url": "https://collabstr.com/albaronatx"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "54.1k Followers",
+        "follower_count": 54100,
+        "profile_url": "https://collabstr.com/albaronatx"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "73.8K Followers",
+        "follower_count": 73800,
+        "profile_url": "https://collabstr.com/albaronatx"
+      },
+      {
+        "platform": "Twitch",
+        "follower_text": "10.0k Followers",
+        "follower_count": 10000,
+        "profile_url": "https://collabstr.com/albaronatx"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-049",
+    "name": "Theresa Davis",
+    "username": "theresaceetv",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/theresaceetv",
+    "follower_count": 19500,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 4.53,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Kansas City, MO, US",
+    "headline": "Busy Mom Food & Lifestyle",
+    "bio": "I am a humorous toddler mom who creates appealing food and lifestyle content. I love being a mom and I incorporate my toddler, husband, and dogs into my videos at times (they are all available for collaborations). I also offer social media management and UGC services. I would love to work with you …",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "2.1k Followers",
+        "follower_count": 2100,
+        "profile_url": "https://collabstr.com/theresaceetv"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "19.5k Followers",
+        "follower_count": 19500,
+        "profile_url": "https://collabstr.com/theresaceetv"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "3.1K Followers",
+        "follower_count": 3100,
+        "profile_url": "https://collabstr.com/theresaceetv"
+      },
+      {
+        "platform": "Amazon",
+        "follower_text": "View",
+        "follower_count": 0,
+        "profile_url": "https://collabstr.com/theresaceetv"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-050",
+    "name": "Kevin Ganci",
+    "username": "kevinganci",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/kevinganci",
+    "follower_count": 3500,
+    "follower_tier": "Nano (<5k)",
+    "estimated_engagement_rate": 4.43,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Startups & Tech Business"
+    ],
+    "location": "Saint Petersburg, FL, US",
+    "headline": "Versatile Lifestyle And Wellness Content Creator For Homes And Pets.",
+    "bio": "I’m a millennial who brings versatility and high production value to my brand collaborations. My content is tailored to business professionals, pet lovers, people of faith, fashion-forward thinkers, and anyone looking for life hacks to make their routines more efficient and enjoyable.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "3.5k Followers",
+        "follower_count": 3500,
+        "profile_url": "https://collabstr.com/kevinganci"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "48 Followers",
+        "follower_count": 48,
+        "profile_url": "https://collabstr.com/kevinganci"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "218 Followers",
+        "follower_count": 218,
+        "profile_url": "https://collabstr.com/kevinganci"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-051",
+    "name": "Shubham Saini",
+    "username": "shubook",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/shubook",
+    "follower_count": 50700,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.68,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Bangalore, KA, IN",
+    "headline": "Manifestation | Mindset",
+    "bio": "I help people to Manifest their goals and dreams by working on self development, Mindset and Emotional health. my audience is between age 18-34. where 70% male and 30% female. and they live in top 5 cities of India",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "50.7k Followers",
+        "follower_count": 50700,
+        "profile_url": "https://collabstr.com/shubook"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "14.8K Followers",
+        "follower_count": 14800,
+        "profile_url": "https://collabstr.com/shubook"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-052",
+    "name": "Aubry Trude",
+    "username": "aubrytrude",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/aubrytrude",
+    "follower_count": 3200,
+    "follower_tier": "Nano (<5k)",
+    "estimated_engagement_rate": 5.39,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Los Angeles, CA, US",
+    "headline": "Beauty & Lifestyle Creator",
+    "bio": "I create content trying out new makeup looks & hairstyles. I talk about mental health, healthy living & spirituality. My audience is mostly women between the ages of 25 and 35.",
+    "platforms": [
+      {
+        "platform": "TikTok",
+        "follower_text": "3.2k Followers",
+        "follower_count": 3200,
+        "profile_url": "https://collabstr.com/aubrytrude"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "2.39K Followers",
+        "follower_count": 2390,
+        "profile_url": "https://collabstr.com/aubrytrude"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-053",
+    "name": "Ethanjewell",
+    "username": "ethanjewell",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/ethanjewell",
+    "follower_count": 997400,
+    "follower_tier": "Macro (>100k)",
+    "estimated_engagement_rate": 1.99,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Denver, CO, US",
+    "headline": "Mental Health Content Creator",
+    "bio": "Mental health creator and podcast host who makes music and content about healing, emotional health, and self-discovery. I create original songs, podcast episodes, and short-form videos focusing on depression, anxiety, mindfulness, people-pleasing, and inner healing. My audience skews 18–35 but span…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "134.5k Followers",
+        "follower_count": 134500,
+        "profile_url": "https://collabstr.com/ethanjewell"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "997.4k Followers",
+        "follower_count": 997400,
+        "profile_url": "https://collabstr.com/ethanjewell"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "53.7K Followers",
+        "follower_count": 53700,
+        "profile_url": "https://collabstr.com/ethanjewell"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-054",
+    "name": "Nazir Jarmajo",
+    "username": "kurratv",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/kurratv",
+    "follower_count": 80000,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.94,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Lagos, NG",
+    "headline": "Daily Football News And Analysis With Exciting Video Highlights",
+    "bio": "Kurra TV is a Hausa football media platform covering the latest football news, transfer updates, match analysis and stories from the biggest clubs and players around the world. We connect brands with a highly engaged football audience across YouTube, TikTok, Facebook and Instagram.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "0-1k Followers",
+        "follower_count": 500,
+        "profile_url": "https://collabstr.com/kurratv"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "80.0k Followers",
+        "follower_count": 80000,
+        "profile_url": "https://collabstr.com/kurratv"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "23.8K Followers",
+        "follower_count": 23800,
+        "profile_url": "https://collabstr.com/kurratv"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-055",
+    "name": "Joyce Ribeiro",
+    "username": "joycethomazette",
+    "primary_platform": "Instagram",
+    "profile_url": "https://collabstr.com/joycethomazette",
+    "follower_count": 42100,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.41,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Orlando, FL, US",
+    "headline": "Ugc Creator | Lifestyle, Family & Food Content",
+    "bio": "I'm a Florida-based bilingual UGC creator specializing in lifestyle, family, food, and consumer brands. As a Brazilian mom living in the U.S., I create authentic, relatable content in both English and Portuguese that builds trust and drives engagement. From product demonstrations to storytelling-le…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "42.1k Followers",
+        "follower_count": 42100,
+        "profile_url": "https://collabstr.com/joycethomazette"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "8.5k Followers",
+        "follower_count": 8500,
+        "profile_url": "https://collabstr.com/joycethomazette"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "3.53K Followers",
+        "follower_count": 3530,
+        "profile_url": "https://collabstr.com/joycethomazette"
+      },
+      {
+        "platform": "Amazon",
+        "follower_text": "View",
+        "follower_count": 0,
+        "profile_url": "https://collabstr.com/joycethomazette"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-056",
+    "name": "Tiffani Butler",
+    "username": "shanellethebelle",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/shanellethebelle",
+    "follower_count": 62200,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.6,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Tech Education & Tutorials"
+    ],
+    "location": "Atlanta, GA, US",
+    "headline": "Lifestyle Content Creator",
+    "bio": "I create content about life in the city, restaurant reviews, and tips on manifestation and life advice. I also post travel videos.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "9.4k Followers",
+        "follower_count": 9400,
+        "profile_url": "https://collabstr.com/shanellethebelle"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "62.2k Followers",
+        "follower_count": 62200,
+        "profile_url": "https://collabstr.com/shanellethebelle"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "2.42K Followers",
+        "follower_count": 2420,
+        "profile_url": "https://collabstr.com/shanellethebelle"
+      },
+      {
+        "platform": "Amazon",
+        "follower_text": "View",
+        "follower_count": 0,
+        "profile_url": "https://collabstr.com/shanellethebelle"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-057",
+    "name": "Mohamad Alkaaby",
+    "username": "kaaby",
+    "primary_platform": "YouTube",
+    "profile_url": "https://collabstr.com/kaaby",
+    "follower_count": 6850,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.82,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Technology & AI"
+    ],
+    "location": "Windsor, ON, CA",
+    "headline": "Student Athlete Inspiring Fitness Enthusiasts Through Engaging Content",
+    "bio": "I create content that helps athletes boost performance and sprint speed, along with the latest news and updates from the world of track and field.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "follower_text": "6.85K Followers",
+        "follower_count": 6850,
+        "profile_url": "https://collabstr.com/kaaby"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  },
+  {
+    "id": "INF-058",
+    "name": "Cezare Tech",
+    "username": "cezaretech",
+    "primary_platform": "TikTok",
+    "profile_url": "https://collabstr.com/cezaretech",
+    "follower_count": 82200,
+    "follower_tier": "Micro (5k-100k)",
+    "estimated_engagement_rate": 2.59,
+    "category": "Technology & AI",
+    "content_themes": [
+      "Mobile & Apps",
+      "Tech Education & Tutorials"
+    ],
+    "location": "Berlin, BE, DE",
+    "headline": "An Innovative Tech Enthusiast Sharing The Latest Gadgets And Trends.",
+    "bio": "Passionate about mobile technology, I produce engaging content focused on smartphones, apps, unboxings, and consumer electronics, blending education with entertainment. My audience, primarily located in Germany and Albania, is highly engaged and enthusiastic about the latest tech trends. I strive t…",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "follower_text": "64.1k Followers",
+        "follower_count": 64099,
+        "profile_url": "https://collabstr.com/cezaretech"
+      },
+      {
+        "platform": "TikTok",
+        "follower_text": "82.2k Followers",
+        "follower_count": 82200,
+        "profile_url": "https://collabstr.com/cezaretech"
+      },
+      {
+        "platform": "YouTube",
+        "follower_text": "2.92K Followers",
+        "follower_count": 2920,
+        "profile_url": "https://collabstr.com/cezaretech"
+      },
+      {
+        "platform": "Amazon",
+        "follower_text": "View",
+        "follower_count": 0,
+        "profile_url": "https://collabstr.com/cezaretech"
+      }
+    ],
+    "discovery_source": "Collabstr Public Directory"
+  }
+]
