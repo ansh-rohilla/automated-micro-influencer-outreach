@@ -74,7 +74,16 @@ def load_data():
 df_raw, df_classified, df_enriched, df_outreach, df_tracker = load_data()
 
 # Sidebar Navigation
-st.sidebar.image("https://img.icons8.com/clouds/200/artificial-intelligence.png", width=110)
+st.sidebar.markdown(
+    """
+    <div style="text-align: center; padding: 5px 0 15px 0;">
+        <span style="font-size: 50px;">🚀</span>
+        <h3 style="margin: 4px 0 0 0; color: #3B82F6; font-size: 1.3rem; font-weight: 700;">OutreachAI</h3>
+        <p style="margin: 0; color: #9CA3AF; font-size: 0.8rem;">Micro-Influencer Outreach System</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 st.sidebar.title("Navigation")
 page = st.sidebar.radio(
     "Select Workflow Stage:",
@@ -89,7 +98,7 @@ page = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.caption("EDXSO AI Engineer Intern – Assignment 1")
+st.sidebar.caption("Automated Micro-Influencer Outreach")
 st.sidebar.caption("Pipeline: Tech & AI Niche")
 
 # ==========================================
